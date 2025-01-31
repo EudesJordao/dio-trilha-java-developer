@@ -1,10 +1,11 @@
+package ContaBanco;
 import java.util.Scanner;
 
-public class App {
+public class ContaTerminal {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-     
+
         System.out.println("Por favor, digite o número da conta: ");
         int numeroConta = scanner.nextInt();
 
@@ -19,7 +20,7 @@ public class App {
         double saldo = scanner.nextDouble();
 
         System.out.println("Olá, " + nomeTitular + "! Obrigado por abrir sua conta conosco. Sua agência é " + numeroAgencia + ", sua conta é " + numeroConta + " e seu saldo é de R$" + saldo + ".");
-        
+
     }
 
 }
