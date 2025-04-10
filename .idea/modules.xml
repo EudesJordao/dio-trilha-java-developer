@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/banco-fianceiro/banco-fianceiro.iml" filepath="$PROJECT_DIR$/banco-fianceiro/banco-fianceiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/dio-trilha-java-developer-main.iml" filepath="$PROJECT_DIR$/dio-trilha-java-developer-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/fila/fila.iml" filepath="$PROJECT_DIR$/fila/fila.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fila-encadeada/fila-encadeada.iml" filepath="$PROJECT_DIR$/fila-encadeada/fila-encadeada.iml" />
     </modules>
   </component>
 </project>
