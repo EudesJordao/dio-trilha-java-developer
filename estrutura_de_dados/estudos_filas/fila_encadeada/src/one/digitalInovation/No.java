@@ -3,7 +3,7 @@ package estrutura_de_dados.estudos_filas.fila_encadeada.src.one.digitalInovation
 public class No<T> {
 
     private T conteudo;
-    private estrutura_de_dados.estudos_filas.fila.src.one.digitalInovation.No<T> proximoNo;
+    private No<T> proximoNo;
 
     public No() {
         this.proximoNo = null;
@@ -22,11 +22,11 @@ public class No<T> {
         this.conteudo = conteudo;
     }
 
-    public estrutura_de_dados.estudos_filas.fila.src.one.digitalInovation.No<T> getProximoNo() {
+    public No<T> getProximoNo() {
         return proximoNo;
     }
 
-    public void setProximoNo(estrutura_de_dados.estudos_filas.fila.src.one.digitalInovation.No<T> proximoNo) {
+    public void setProximoNo(No<T> proximoNo) {
         this.proximoNo = proximoNo;
     }
 

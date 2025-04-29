@@ -1,6 +1,5 @@
 package estrutura_de_dados.estudos_filas.fila_encadeada.src.one.digitalInovation;
 
-import estrutura_de_dados.estudos_filas.fila.src.one.digitalInovation.No;
 
 public class ListaEncadeada<T> {
 
