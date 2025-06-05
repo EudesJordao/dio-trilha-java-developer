@@ -31,7 +31,7 @@ public class Main {
         //confira se nota 7 esta na lista
         System.out.println(notas.contains(7d));
 
-        //exiba a lista uma abaixo da outra
+        //exiba as notas uma abaixo da outra
         //for(Double nota : notas) System.out.println(nota);
 
         //exiba a terceira nota add
