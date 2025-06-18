@@ -1,6 +1,8 @@
 package set.exerciciosSet;
 
-public class Linguagem implements Comparable<String> {
+import java.util.Comparator;
+
+public class Linguagem implements Comparable<Linguagem>{
     private String nome;
     private String ide;
     private int ano;
@@ -35,10 +37,6 @@ public class Linguagem implements Comparable<String> {
         this.ano = ano;
     }
 
-    @Override
-    public int compareTo(String o) {
-        return 0;
-    }
 
     @Override
     public String toString() {
@@ -47,5 +45,11 @@ public class Linguagem implements Comparable<String> {
                 ", ide='" + ide + '\'' +
                 ", ano=" + ano +
                 '}';
+    }
+
+
+    @Override
+    public int compareTo(Linguagem o) {
+        return this.getNome().compareTo(o.getNome());
     }
 }
